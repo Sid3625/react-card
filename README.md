@@ -49,9 +49,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ![image](https://user-images.githubusercontent.com/72665805/235896632-9c516387-e3de-430a-b4e4-e2779d1670e8.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
 
 
