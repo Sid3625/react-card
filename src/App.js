@@ -1,7 +1,16 @@
 import React from "react"
 import Star from "./Star"
+import Preloader from './Preloader';
 
 export default function App() {
+
+    const assets = [
+        { type: 'image', url: '/images/user.png' },
+        // { type: 'audio', url: 'https://example.com/audio.mp3' },
+        // { type: 'video', url: 'https://example.com/video.mp4' },
+        // { type: 'js', url: './Star.js' },
+        { type: 'css', url: '/style.css' },
+      ];
     const [contact, setContact] = React.useState({
         firstName: "Siddhesh",
         lastName: "Undre",
@@ -18,7 +27,8 @@ export default function App() {
     }
     
     return (
-        <main>
+    <Preloader assets={assets}>
+       <main>
             <article className="card">
                 <img src="./images/user.png" className="card--image" />
                 <div className="card--info">
@@ -32,5 +42,8 @@ export default function App() {
                 
             </article>
         </main>
+    </Preloader>
+
+        
     )
 }

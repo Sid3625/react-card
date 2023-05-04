@@ -6,7 +6,7 @@ export default function Star(props) {
         <img 
             src={`../images/${starIcon}`} 
             className="card--favorite"
-            onClick={props.handleClick}
+            onClick= {props.handleClick}
         />
     )
 }
